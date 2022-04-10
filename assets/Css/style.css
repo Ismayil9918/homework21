@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.border-box{
+    border-style: solid;
+    width: 1350px;
+    height: 80px;
+    border-radius:12px;
+    margin: 30px 10px;
+    position: relative;
+   
+    
+    
+    
+}
+.box-yellow1{
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+    position: relative;
+    top: 10px;
+    left: 33px;
+    
+}
+.border-box .box-yellow2{
+    width: 780px;
+    height: 53px;
+    background-color: yellow;
+    position: relative;
+    left: 204px;
+    bottom: 42px;
+
+}
+.border-box .box-yellow2 .box-blue1{
+    width: 180px;
+    height: 42px;
+    background-color: rgb(184, 184, 212);
+    position:absolute;
+    bottom: 0;
+    left: 30px;
+}
+.border-box .box-yellow2 .box-blue1 .box-red{
+    width: 38px;
+    height: 30px;
+    background-color:red;
+    position:absolute;
+    right: 0;
+}
+.border-box .box-yellow2 .box-blue2{
+    width: 180px;
+    height: 42px;
+    background-color: rgb(184, 184, 212);
+    position: absolute;
+    bottom: 0;
+    left: 360px;
+
+}
+.border-box .box-yellow2 .box-blue3{
+    width: 90px;
+    height: 42px;
+    background-color: rgb(184, 184, 212);
+    position: absolute;
+    bottom: 0;
+    right: 20px;
+}
+.border-box .box-yellow3{
+    width: 100px;
+    height: 65px;
+    background-color: yellow;
+    position:absolute;
+    right: 60px;
+    top: 4px;
+   
+
+
+}
+.border-box .box-yellow3 .box-mod{
+    border-style: solid;
+    width: 55px;
+    height: 55px;
+    color: red;
+    position: absolute;
+    right: 25px;
+    top: 4px;
+}
